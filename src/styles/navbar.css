@@ -1,0 +1,12 @@
+export function Navbar() {
+  return `
+    <nav class="navbar">
+      <h1>Soxibeta</h1>
+      <ul>
+        <li onclick="navigate('hero')">Home</li>
+        <li onclick="navigate('services')">Services</li>
+        <li onclick="navigate('contact')">Contact</li>
+      </ul>
+    </nav>
+  `;
+}
